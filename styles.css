@@ -1,0 +1,66 @@
+header{
+background-color: rebeccapurple;
+padding: 5px;
+text-align: center;
+position:fixed;
+width: 100%;
+z-index: 1;
+top: 0;
+left: 0;
+}
+
+header h1 {
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.banner{
+    position: relative;
+
+}
+.banner img {
+    max-width: 100%;
+}
+.banner .tagline{
+    color: white;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+.banner h2{
+    font-size: 400%;
+}
+.banner h2  span{
+    font-size: 1.3em;
+}
+.banner p {
+    position: absolute;
+    left: 30%;
+    bottom: 10%;
+}
+nav{
+    background-color: rgb(206, 206, 206);
+    padding: 20px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+    width: 33.33%;
+    display: inline-block ;
+    font-size:  24px;
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    
+
+}
